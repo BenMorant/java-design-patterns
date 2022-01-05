@@ -11,7 +11,8 @@ public class EagerInitializedSingleton {
 
     private static final EagerInitializedSingleton instance = new EagerInitializedSingleton();
 
-    //private constructor to avoid client applications to use constructor
+    //private constructor to avoid client applications to use constructor because Java, by default, provides a public
+    // one.
 
     private EagerInitializedSingleton() {
     }
