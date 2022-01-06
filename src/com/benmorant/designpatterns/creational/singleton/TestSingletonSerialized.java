@@ -2,7 +2,7 @@ package com.benmorant.designpatterns.creational.singleton;
 
 import java.io.*;
 
-public class SingletonSerializedTest {
+public class TestSingletonSerialized {
 
     public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
         SerializedSingleton instanceOne = SerializedSingleton.getInstance();

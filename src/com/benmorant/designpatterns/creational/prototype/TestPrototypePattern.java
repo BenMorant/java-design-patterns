@@ -2,7 +2,7 @@ package com.benmorant.designpatterns.creational.prototype;
 
 import java.util.List;
 
-public class PrototypePatternTest {
+public class TestPrototypePattern {
 
     public static void main(String[] args) throws CloneNotSupportedException {
         Employees emps = new Employees();

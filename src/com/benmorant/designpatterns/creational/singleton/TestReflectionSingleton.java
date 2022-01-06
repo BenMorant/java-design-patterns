@@ -2,7 +2,7 @@ package com.benmorant.designpatterns.creational.singleton;
 
 import java.lang.reflect.Constructor;
 
-public class ReflectionSingletonTest {
+public class TestReflectionSingleton {
 
     /* Reflection can be used to destroy all the above singleton implementation approaches. */
     public static void main(String[] args) {
